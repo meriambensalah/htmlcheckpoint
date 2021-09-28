@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Introduction to CSS laout</title>
+  </head>
+
+  <body>
+    <!--debut header-->
+    <header>
+      <div class="navmenu">
+        <img
+          src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png"
+          alt="logo-css"
+          class="logo-css"
+        />
+        <ul class="nav-links">
+          <li>
+              <!--NB : href="#home" permet un lien par id a la section home , lors de l'affichage du site web si on clic sur home nav bar on se dirige vers la section home par exemple-->
+            <a href="#"> Home</a>
+          </li>
+          <li>
+            <a href="#about"> About</a>
+          </li>
+          <li>
+            <a href="#Projet"> Projects</a>
+          </li>
+          <li>
+            <a href="#contact"> Contact</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!--end header-->
+
+
+    <!--debut main -->
+    <main id="main">
+
+        <!--debut section 1 video et titre-->
+      <section class="about-section">
+        <div id="about">
+          <h1>
+            Want to learn <span class="css-span">CSS</span>?<br />
+            Join us for more videos.
+          </h1>
+          <button class="watchvideo-btn"><a href="https://www.youtube.com/watch?v=zO4DFCjgdx0&list=PLr6-GrHUlVf9ZleRsd5oTcrziNglndsXW&ab_channel=EJMedia">Watch video</a></button>
+        </div>
+        <iframe
+          width="727"
+          height="409"
+          src="https://www.youtube.com/embed/6vbgZnQrpbU"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+        <!--fin section 1 video et titre-->
+
+
+
+
+        <!--debut section 2 les projets-->
+      <section class="projects-section">
+
+
+
+        <div class="project">
+            <!--pour les images src on peut mettre la direction de l'image dans le dossiers images ou mettre un lien de l'internet , un clic droit sur la photo google et clic sur copie image adresse-->
+          <div id="project">
+            <img 
+            src="https://cdn.futura-sciences.com/buildsv6/images/wide1920/6/5/2/652a7adb1b_98148_01-intro-773.jpg"
+            style="width: 360px; height: 208, 69px"
+          />
+          <h3>Project 1</h3>
+          <p>
+            Explore how budgetary constraints affect <br />
+            creativity–for better or worse–in our Webby <br />
+            Award-winning original series.
+          </p>
+          <a href="#"> Explore & learn more</a><br />
+          </div>
+        </div>
+
+
+
+
+        <div class="project">
+          <img id="Projet"
+            src="https://blogvault.net/wp-content/uploads/2020/09/Stuck-in-WordPress-maintenance-mode-2-1.png"
+            style="width: 360px; height: 208, 69px"
+          />
+          <h3>Project 2</h3>
+          <p>
+            Explore how budgetary constraints affect <br />
+            creativity–for better or worse–in our Webby <br />
+            Award-winning original series.
+          </p>
+          <a href="#"> Explore & learn more</a><br />
+        </div> 
+        <div class="project">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKnPMPQ96qJwLkS6Bh-G1OHo-FPKT_dU6itMOR2Kw85U9XWM3PQR4s3FjAHvgZWz_Kmz8&usqp=CAU"
+            style="width: 360px; height: 208, 69px"
+          />
+          <h3>Project 3</h3>
+          <p>
+            Explore how budgetary constraints affect <br />
+            creativity–for better or worse–in our Webby <br />
+            Award-winning original series.
+          </p>
+          <a href="#"> Explore & learn more</a><br />
+        </div>
+        <div class="project">
+          <img
+            src="https://caa.bj/wp-content/uploads/2020/06/wordpress-maintenance-mode-coming-soon-plugins.png"
+            style="width: 360px; height: 208, 69px"
+          />
+          <h3>Project 4</h3>
+          <p>
+            Explore how budgetary constraints affect <br />
+            creativity–for better or worse–in our Webby <br />
+            Award-winning original series.
+          </p>
+          <a href="#"> Explore & learn more</a><br />
+        </div> 
+        <div class="project">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjksF3YFoJCk7_netyWnkG0jFQ-xkuT10vtJksKmtpvWB8O5OJCQw2ajTJiPfxS3tsvfI&usqp=CAU"
+            style="width: 360px; height: 208, 69px"
+          />
+          <h3>Project 5</h3>
+          <p>
+            Explore how budgetary constraints affect <br />
+            creativity–for better or worse–in our Webby <br />
+            Award-winning original series.
+          </p>
+          <a href="#"> Explore & learn more</a><br />
+        </div>
+        <div class="project">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNDGxBdYQOvXvcTd7QE8U0vNYawlEDP9N45_YADjkAPqWtpeQhw_5-KDF4VPeeC8jw5HY&usqp=CAU"
+            style="width: 360px; height: 208, 69px"
+          />
+          <h3>Project 6</h3>
+          <p>
+            Explore how budgetary constraints affect <br />
+            creativity–for better or worse–in our Webby <br />
+            Award-winning original series.
+          </p>
+          <a href="#"> Explore & learn more</a><br />
+        </div> 
+        <div class="project">
+          <img
+            src="https://kinsta.com/fr/wp-content/uploads/sites/4/2019/07/desole-ce-type-de-fichier-n-est-pas-autorise.png"
+            style="width: 360px; height: 208, 69px"
+          />
+          <h3>Project 7</h3>
+          <p>
+            Explore how budgetary constraints affect <br />
+            creativity–for better or worse–in our Webby <br />
+            Award-winning original series.
+          </p>
+          <a href="#"> Explore & learn more</a><br />
+        </div>
+        <div class="project">
+          <img
+            src="https://kinsta.com/fr/wp-content/uploads/sites/4/2019/08/jpg-vs-jpeg-1024x512.jpg"
+            style="width: 360px; height: 208, 69px"
+          />
+          <h3>Project 8</h3>
+          <p>
+            Explore how budgetary constraints affect <br />
+            creativity–for better or worse–in our Webby <br />
+            Award-winning original series.
+          </p>
+          <a href="#"> Explore & learn more</a><br />
+        </div> 
+
+      </section>
+              <!--debut section 2 les projets-->
+
+    </main>
+    <!--end main -->
+
+
+
+<!--debut footer-->
+    <footer id="contact">
+      <div>
+        <p class="footer-message">
+          We’ve updated our
+          <a href="#"><span>Terms of Service</span></a
+          >.
+        </p>
+      </div>
+    </footer>
+    <!--end footer-->
+
+
+
+
+  </body>
+</html>
